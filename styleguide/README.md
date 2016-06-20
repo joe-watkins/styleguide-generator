@@ -1,5 +1,5 @@
 # Jekyll-based Styleguide
-This is a fork of [Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide) and has been tweaked to fit in with my workflow. I've added *Brand Colors*, and a *Jump To Section* dropdown.
+A Jekyll-based styleguide generator.
 
 ![Example of Styleguide](https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/sg.png)
 
@@ -68,3 +68,7 @@ itemId: buttons
 - `type` Used for grouping like-minded components
 - `fullwidth` If set to `true` the component will go full width of viewport instead of having padding.
 - `itemID` A unique `ID` used for the *Jump To* selector.
+
+
+## Credit
+This is a fork of [Jekyll Styleguide](https://github.com/jeromecoupe/jekyllstyleguide) and has been tweaked to fit in with my workflow. I've added *Brand Colors*, and a *Jump To Section* dropdown.
