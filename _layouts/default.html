@@ -1,0 +1,24 @@
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/screen.css" media="screen">
+    <link rel="stylesheet" href="css/base.min.css" media="screen">
+    <link rel="stylesheet" href="css/main.min.css" media="screen">
+</head>
+<body>
+
+  {% include svg-sprite.html %}
+
+  {% include jump-to.html %}
+
+  <div class="container-fluid">
+    {{ content }}
+  </div>
+
+  <script src="scripts/main.min.js"></script>
+
+</body>
+</html>
